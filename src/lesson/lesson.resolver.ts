@@ -8,7 +8,7 @@ export class LessonResolver {
     return {
       id: '1',
       name: 'Math Class',
-      start: new Date().toISOString(),
+      startDate: new Date().toISOString(),
       endDate: new Date().toISOString(),
     };
   }
